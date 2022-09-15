@@ -24,18 +24,17 @@ const BaseInput = forwardRef(
 		ref: ForwardedRef<HTMLInputElement>
 	) => {
 		return (
-			<div className="flex flex-col w-full gap-1 mb-5">
+			<div className={clsx("flex flex-col w-full gap-1", className)}>
 				<label htmlFor="" className="font-bold">
 					{label}
 				</label>
-				<div className="flex items-center h-12 gap-2 px-2 overflow-hidden text-gray-700 bg-white border-2 rounded-lg">
+				<div className="flex items-center h-12 gap-2 px-2 overflow-hidden text-gray-500 bg-white border-2 rounded-lg">
 					{startIcon && <div>{startIcon}</div>}
 					<input
 						type={type}
 						placeholder={placeholder}
 						className={clsx(
-							"flex-grow h-full bg-white focus:outline-none",
-							className
+							"flex-grow h-full bg-white focus:outline-none"
 						)}
 						ref={ref}
 						{...rest}
