@@ -1,0 +1,44 @@
+{
+	"site_title": "عنوان سایت",
+	"loading": "در حال بارگذاری",
+	"load_more": "نمایش بیشتر",
+	"alerts": {
+		"not_found": "موردی یافت نشد",
+		"empty_cart": "سبد خرید شما خالی است!",
+		"required": "این مورد ضروری است",
+		"unknown_error": "خطای نامشخص رخ داد",
+		"min_characters": "باید حداقل {{min, number}} کارکتر باشد",
+		"must_match_password": "کلمه عبور و تکرار آن باید یکسان باشد",
+		"wrong_format": "فرمت اشتباه است",
+		"wrong_email": "فرمت ایمیل اشتباه است",
+		"wrong_mobile": "فرمت شماره موبایل اشتباه است",
+		"advice_form_submit": "فرم مشاوره با موفقیت ارسال شد",
+		"vip_form_submit": "فرم با موفقیت ارسال شد",
+		"discount": "کد تخفیف شما با موفقیت اعمال شد"
+	},
+	"form": {
+		"login_title": "ورود به حساب کاربری",
+		"register_title": "ایجاد حساب کاربری",
+		"sub_title": "شرکت finnogate",
+		"login_form": {
+			"email_label": "نام کاربری",
+			"email_placeholder": "ایمیل خود را وارد کنید",
+			"email_required_error": "ورود ایمیل الزامی است",
+			"password_label": "کلمه عبور",
+			"password_placeholder": "کلمه عبور خود را وارد کنید",
+			"password_required_error": "ورود رمز عبور الزامی است",
+			"forgot_password": "رمز عبور خود را فراموش کرده ام",
+			"code_label": "کد امنیتی",
+			"remember_me": "مرا به خاطر داشته باش",
+			"registered_before": "قبلا ثبت نام کرده اید؟",
+			"not_registered": "کاربر جدید هستید؟",
+			"register_now": "ثبت نام",
+			"login_now": "وارد شوید",
+			"success": "ورود با موفقیت انجام شد",
+			"login_google": "ورود از طریق گوگل",
+			"or": "یا",
+			"title": "ورود به سایت",
+			"submit": "ورود"
+		}
+	}
+}
