@@ -3,10 +3,10 @@ import React from "react";
 
 const SideImage = () => {
 	return (
-		<div className="relative w-4/6 h-40 h-full md:block">
+		<div className="relative hidden w-4/6 md:block">
 			<Image
 				className="relative max-w-full max-h-full"
-				src="/media/images/login-area-side-vector.png"
+				src="/media/images/Fingerprint-pana.png"
 				layout="fill"
 				objectFit="cover"
 				priority={true}
