@@ -1,4 +1,4 @@
-## UNI-PLATO-TEST
+## FINNOGATE-TEST
 
 this web application build with next.js
 
