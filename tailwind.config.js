@@ -23,10 +23,10 @@ module.exports = {
 			},
 			colors: {
 				primary: {
-					main: "#3B5266",
+					main: "#0116cb",
 				},
 				secondary: {
-					main: "#879DB2",
+					main: "#d4d8ff ",
 				},
 				blue: {
 					main: "#00BEDF",
