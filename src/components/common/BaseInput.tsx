@@ -46,5 +46,5 @@ const BaseInput = forwardRef(
 		);
 	}
 );
-
+BaseInput.displayName = "BaseInput";
 export default BaseInput;
