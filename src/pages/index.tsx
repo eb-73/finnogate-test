@@ -1,4 +1,3 @@
-// import { getLayout } from "@/components/layouts/MainLayout";
 import FormWrapper from "@/components/login-register/FormWrapper";
 import { GetStaticPropsContext } from "next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
@@ -19,7 +18,5 @@ const Home = () => {
 		</div>
 	);
 };
-
-// Home.getLayout = getLayout;
 
 export default Home;
