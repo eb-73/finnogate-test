@@ -36,7 +36,7 @@ const LoginForm = () => {
 		setLogin((prevState) => !prevState);
 	};
 	return (
-		<div className="w-full md:w-2/6 bg-[#f1f1f1] p-20">
+		<div className="w-full md:w-3/6 xl:w-2/6 bg-[#f1f1f1] p-16">
 			<FormHeader login={login} />
 			<form
 				className="flex flex-col w-full gap-5 "
@@ -73,6 +73,7 @@ const LoginForm = () => {
 				)}
 				<div className="flex justify-center w-full">
 					<ReCAPTCHA
+						size="compact"
 						sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
 						// onChange={onChange}
 						ref={recaptchaRef}
