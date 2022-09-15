@@ -3,7 +3,7 @@ import React from "react";
 
 const SideImage = () => {
 	return (
-		<div className="relative hidden w-4/6 md:block">
+		<div className="relative hidden md:w-3/6 xl:w-4/6 md:block">
 			<Image
 				className="relative max-w-full max-h-full"
 				src="/media/images/Fingerprint-pana.png"
