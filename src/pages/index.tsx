@@ -1,10 +1,21 @@
 // import { getLayout } from "@/components/layouts/MainLayout";
-import WrapperBox from "@/components/login-register/WrapperBox";
+import FormWrapper from "@/components/login-register/FormWrapper";
+import { GetStaticPropsContext } from "next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+
+export const getStaticProps = async ({ locale }: GetStaticPropsContext) => {
+	return {
+		props: {
+			...(await serverSideTranslations(locale as string, ["common"])),
+		},
+		revalidate: 60,
+	};
+};
 
 const Home = () => {
 	return (
-		<div className="flex items-center justify-center w-full h-full">
-			<WrapperBox />
+		<div className="absolute top-0 bottom-0 flex items-center justify-center w-full my-auto">
+			<FormWrapper />
 		</div>
 	);
 };
