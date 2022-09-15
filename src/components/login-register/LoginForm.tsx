@@ -36,7 +36,7 @@ const LoginForm = () => {
 		setLogin((prevState) => !prevState);
 	};
 	return (
-		<div className="w-full md:w-3/6 xl:w-2/6 bg-[#f1f1f1] p-16">
+		<div className="w-full md:w-3/6 xl:w-2/6 bg-[#f1f1f1] md:p-10 2xl:p-16 p-4">
 			<FormHeader login={login} />
 			<form
 				className="flex flex-col w-full gap-5 "
@@ -56,6 +56,7 @@ const LoginForm = () => {
 				/>
 				<BaseInput
 					error={errors["password"]?.message}
+					type="password"
 					label={t("password_label")}
 					startIcon={<LockClosedIcon className="w-5" />}
 					placeholder={t("password_placeholder")}
