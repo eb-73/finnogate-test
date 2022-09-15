@@ -1,4 +1,8 @@
 declare global {
+	interface LoginFormInput {
+		email: string;
+		password: string;
+	}
 	interface QueryParams {
 		ids?: number[];
 		page?: number;
@@ -8,6 +12,10 @@ declare global {
 		q?: string;
 		category?: string;
 		[key: string]: any;
+	}
+	interface GetRouteProps {
+		query?: QueryParams;
+		route: string;
 	}
 }
 export default global;
