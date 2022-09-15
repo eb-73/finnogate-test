@@ -91,7 +91,7 @@ const LoginForm = () => {
 						{login ? t("not_registered") : t("registered_before")}
 					</h3>
 					<a
-						className="text-primary-main"
+						className="cursor-pointer text-primary-main"
 						onClick={changeModeHandler}
 					>
 						{login ? t("register_now") : t("login_now")}
